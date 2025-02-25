@@ -84,3 +84,59 @@ alert(typeof cantidad);// Imprime en la consola
             alert("Resultado: " + resultado);
         }
   
+        //ESTRUCTURA DE CONTROLS 
+
+//EJEMPLO 1 - 
+
+/*El usuario digite nombre y edad con la siguiente estructura de verificacion
+
+1 a 18 años es joven
+19 a 40 años es adulto 
+41 a 60 años es maduro
+61 en adelante es pencionado
+
+
+
+
+let nombre = prompt("Ingrese su nombre");
+let edad = parseInt(prompt("Ingrese su edad"));
+
+if (edad<=18 ){
+    alert("Hola: " + nombre + " eres joven");
+}
+ else if (edad <40) {
+    alert("Hola: " + nombre + " eres adulto"); 
+} else if (edad<=60) {
+    alert("Hola: " + nombre + " eres maduro"); 
+} else {
+    alert("Hola: " + nombre + " eres pencionado");
+}*/
+
+
+/*CICLO WHILE
+
+//DECLARAR VARIABLE NUMERICA QUE MUESTRE LA CUENTA REGRESIVA A LLEGAR A 0
+
+// iniciamos la variable fuera del bucle
+let cuentaAtras = prompt("Ingrese su numero")
+
+// mientras la cuenta atrás sea mayor que 0
+while (cuentaAtras > 0) {
+  // mostramos el valor de la cuenta atrás en cada iteración
+  document.write(cuentaAtras + '<br>')
+  // restamos 1 a la cuenta atrás
+  cuentaAtras = cuentaAtras - 1
+}
+
+document.write('¡Despegue! 🚀')
+*/
+
+//DO WHILE
+
+/*Imprimir 5 edades de diferentes personas y determinar si son mayores de edad*/
+
+let numero = parseInt(prompt("ingrese el número de la tabla de multiplicar que deseas ver"))
+for (let i = 1; i <= 10; i++) {
+    let resultado = numero * i;
+    document.write(numero + "x" + i + "=" + resultado, "<br>");
+}
