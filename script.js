@@ -341,7 +341,7 @@ switch (figura) {
 // 19.Diseña un programa que solicite el nombre de un usuario y su contraseña. Si el nombre es "admin" y la contraseña es "12345", muestra un mensaje de acceso concedido; de lo contrario, muestra un mensaje de acceso denegado.
 /*
 let usuario = "admin";
-let contraseña = "J12345";
+let contraseña = "Yepes2006ale";
 let usuarioIngresado = prompt("Ingrese su usuario");
 let contraseñaIngresada = prompt("Ingrese su contraseña");  
 if (usuarioIngresado == usuario && contraseñaIngresada == contraseña) {
